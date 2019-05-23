@@ -1,0 +1,120 @@
+//Microsoft Visual C++ で生成されたリソース スクリプト
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE 2 リソースから生成されました。
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+//#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "version.rc"
+#endif
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif
+
+// Applying Windows XP Visual Styles
+1 24 MOVEABLE PURE "manifest.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// アイコン
+//
+
+// アプリケーションのアイコンをすべてのシステム上で維持するために、最も小さい
+// ID 値のアイコンが最初に配置されます。
+
+IDI_ICON_MAIN       ICON         "resource\\main.ico"
+IDI_ICON_COPY       ICON         "resource\\copy.ico"
+IDI_ICON_CUT        ICON         "resource\\cut.ico"
+IDI_ICON_PASTE      ICON         "resource\\paste.ico"
+IDI_ICON_ATTACH     ICON         "resource\\attach.ico"
+IDI_ICON_MOVE1      ICON         "resource\\move1.ico"
+IDI_ICON_MOVE2      ICON         "resource\\move2.ico"
+IDI_ICON_DELETE     ICON         "resource\\delete.ico"
+IDI_ICON_EXIT       ICON         "resource\\exit.ico"
+IDI_ICON_FONT       ICON         "resource\\font.ico"
+IDI_ICON_LOCK       ICON         "resource\\lock.ico"
+IDI_ICON_SAVE       ICON         "resource\\save.ico"
+IDI_ICON_REFRESH    ICON         "resource\\refresh.ico"
+IDI_ICON_PRINT      ICON         "resource\\print.ico"
+IDI_ICON_CLEAR      ICON         "resource\\clear.ico"
+IDI_ICON_NEWWIN     ICON         "resource\\newwin.ico"
+IDI_ICON_COLOR      ICON         "resource\\color.ico"
+IDI_ICON_NOTE       ICON         "resource\\notepad.ico"
+IDI_ICON_REDO       ICON         "resource\\redo.ico"
+IDI_ICON_UNDO       ICON         "resource\\undo.ico"
+IDI_ICON_CAPW       ICON         "resource\\capwin.ico"
+IDI_ICON_CAPS       ICON         "resource\\capscr.ico"
+IDI_ICON_OPTION     ICON         "resource\\option.ico"
+IDI_ICON_IE         ICON         "resource\\ie.ico"
+IDI_ICON_STOP       ICON         "resource\\stop.ico"
+IDI_ICON_GO         ICON         "resource\\go.ico"
+IDI_ICON_FOLDER     ICON         "resource\\folder.ico"
+IDI_ICON_PAGE       ICON         "resource\\page.ico"
+IDI_ICON_KEY        ICON         "resource\\key.ico"
+IDI_ICON_NOTEMIN    ICON         "resource\\notemin.ico"
+IDI_ICON_NOTEMIN2   ICON         "resource\\notemin2.ico"
+IDI_ICON_NOTEORG    ICON         "resource\\noteorg.ico"
+IDI_ICON_CALENDAR   ICON         "resource\\calendar.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// LANGFILE
+//  for the first time startup,ccProj can auto search appropriate lang from first file then res,find what same LocalName(with SISO3166CTRYNAME,like en-GB).
+//    if not found the same LocalNmae with system,will search similar lang with same ANSI code page.similar lang and details is defined at cc::Util::Config.
+//  Show Sample for System with [English (United Kingdom),Locale name:en-GB,ANSI code page:1252]
+//  while search file or res,first is en-GB,if not found,next is similar(en-US).
+//Locale name,                                                ANSI code page,similar Locale
+//
+//th-TH             LANGFILE                "Lang\\th-TH.ini" //874  Thai (Thailand)
+//ja-JP             LANGFILE                "Lang\\ja-JP.ini" //932  Japanese (Japan)
+//zh-CN             LANGFILE                "Lang\\zh-CN.ini" //936  Chinese (PRC)
+//ko-KR             LANGFILE                "Lang\\ko-KR.ini" //949  Korean (Korea)
+//zh-TW             LANGFILE                "Lang\\zh-TW.ini" //950  Chinese (Taiwan)
+//hr-BA             LANGFILE                "Lang\\hr-BA.ini" //1250(?) Croatian (Bosnia and Herzegovina, Latin)
+//be-BY             LANGFILE                "Lang\\be-BY.ini" //1251(?) Belarusian (Belarus)
+en-US             LANGFILE                "Lang\\en-US.ini" //1252  English (United States)
+//el-GR             LANGFILE                "Lang\\el-GR.ini" //1253  Greek (Greece)
+//tr-TR             LANGFILE                "Lang\\tr-TR.ini" //1254(?) Turkish (Turkey)
+//he-IL             LANGFILE                "Lang\\he-IL.ini" //1255  Hebrew (Israel)
+//ar-DZ             LANGFILE                "Lang\\ar-DZ.ini" //1256(?) Arabic (Algeria)
+//lt-LT             LANGFILE                "Lang\\lt-LT.ini" //1257(?) Lithuanian (Lithuania)
+//vi-VN             LANGFILE                "Lang\\vi-VN.ini" //1258   Vietnamese (Vietnam)
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE 3 リソースから生成されました。
+//
+//1 TYPELIB "Lang\\en.ini"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED でない場合
